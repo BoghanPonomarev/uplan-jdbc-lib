@@ -6,9 +6,9 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 
-public class SqlTypeUtils {
+public class SqlTimeUtils {
 
-  private SqlTypeUtils() {
+  private SqlTimeUtils() {
     throw new UnsupportedOperationException();
   }
 
