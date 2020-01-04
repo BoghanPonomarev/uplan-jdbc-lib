@@ -20,9 +20,7 @@ public class UpdateEntityComposite extends EntityComposite {
     }
 
     public UpdateEntityComposite(Map<String, Object> mainParameters, String keyName, Object keyValue) {
-        this.mainParameters = mainParameters;
-        this.keyName = keyName;
-        this.keyValue = keyValue;
+        this(mainParameters, keyName, keyValue, false);
     }
 
     public Map<String, Object> getMainParameters() {
